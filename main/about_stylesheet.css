@@ -1,0 +1,156 @@
+.header {
+  display: inline-flex;
+  min-width: 1280px;
+  padding: 16px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.main-content {
+  margin-bottom: 170px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-bar {
+  display: flex;
+  width: 1280px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo-box {
+  display: flex;
+  padding-right: 122px;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-bar-buttons {
+  display: flex;
+  padding: 8px 0;
+  align-items: center;
+  gap: 24px;
+}
+
+.btn {
+  text-align: center;
+  font-family: Futura;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  padding: 28px 56px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-header {
+  color: var(--black, #000);
+}
+
+.btn-accent {
+  border-radius: 12px;
+  background: var(--accent, #e9bf57);
+  display: flex;
+  padding: 0px 32px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-cta-header {
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: Futura;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.logo-dark-small {
+  width: 48px;
+  height: 48px;
+  aspect-ratio: 1/1;
+  background-image: url(../asset/logo/small-dark.png);
+}
+
+.about-1280 {
+  width: 1280px;
+  height: 606px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 90px;
+}
+
+.title {
+  color: var(--black, #000);
+  text-align: center;
+  font-family: Futura;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.56px;
+}
+
+.footer-1280 {
+  background: var(--main, #7b628a);
+
+  display: flex;
+  min-width: 1280px;
+  padding: 4px 72px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.game-title {
+  color: var(--white, #fff);
+  font-family: Aladin;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-bar-buttons {
+  display: flex;
+  padding: 12px 0;
+  align-items: center;
+}
+
+.btn-footer {
+  color: var(--white, #fff);
+}
+
+.logo-footer {
+  display: flex;
+  padding-left: 108px;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-light-small {
+  width: 48px;
+  height: 48px;
+  aspect-ratio: 1/1;
+  background-image: url(../asset/logo/small-light.png);
+}
+
+/* Pas propre, à changer */
+a {
+  text-decoration: none;
+  color: #000;
+}
