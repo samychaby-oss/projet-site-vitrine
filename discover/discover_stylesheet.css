@@ -221,13 +221,13 @@
 .folder-shape-default {
   fill: #f2e9e2;
   stroke: #cfb097;
-  stroke-width: 3.78193px;
+  stroke-width: 3px;
 }
 
 .folder-shape-active {
   fill: var(--main, #7b628a);
   stroke: #cfb097;
-  stroke-width: 3.78193px;
+  stroke-width: 3px;
 }
 
 /* Test pour voir à quoi ressemblera le prototype final
