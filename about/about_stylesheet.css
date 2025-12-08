@@ -10,7 +10,7 @@
 }
 
 .main-content {
-  margin-bottom: 170px;
+  margin-bottom: 0px;
   display: flex;
   justify-content: center;
 }
@@ -82,8 +82,6 @@
 
 .about-1280 {
   width: 1280px;
-  height: 606px;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -108,7 +106,22 @@
   align-self: stretch;
 }
 
-.card {
+.card-purple {
+  background: var(--main, #7b628a);
+  color: var(--white, #fff);
+  border-radius: 20px;
+  display: flex;
+  width: 276px;
+  height: 477px;
+  padding: 48px 0;
+  flex-direction: column;
+  align-items: center;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.card-beige {
+  background: var(--secondary, #f2e9e2);
+  color: var(--black, #000);
   border-radius: 20px;
   display: flex;
   width: 276px;
@@ -120,7 +133,6 @@
 
 .card-name {
   width: 276px;
-  color: var(--white, #fff);
   text-align: center;
   font-family: Futura;
   font-size: 36px;
@@ -135,14 +147,6 @@
   gap: 8px;
 }
 
-.purple {
-  background: var(--main, #7b628a);
-}
-
-.beige {
-  background: var(--secondary, #f2e9e2);
-}
-
 .avatar-julie {
   background-image: url(asset/card/about_us/avatar/transparent-Julie.png);
   display: flex;
@@ -152,6 +156,30 @@
   align-items: center;
   flex-shrink: 0;
   aspect-ratio: 1/1;
+}
+
+.card-description-beige {
+  display: none;
+  color: #000;
+  font-family: "din-2014";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  margin: 0 24px;
+}
+
+.card-description-purple {
+  display: none;
+  color: #fff;
+  font-family: "din-2014";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  margin: 0 24px;
 }
 
 .avatar-jordan {
@@ -186,9 +214,43 @@
   aspect-ratio: 1/1;
 }
 
+.card-purple:hover {
+  background: var(--secondary, #f2e9e2);
+  color: var(--black, #000);
+}
+
+.card-beige:hover {
+  background: var(--main, #7b628a);
+  color: var(--white, #fff);
+}
+
+.card-purple:hover .card-description-beige {
+  display: block;
+}
+
+.card-beige:hover .card-description-purple {
+  display: block;
+}
+
+.card-purple:hover .avatar-julie {
+  display: none;
+}
+
+.card-purple:hover .avatar-samy {
+  display: none;
+}
+
+.card-beige:hover .avatar-jordan {
+  display: none;
+}
+
+.card-beige:hover .avatar-wesley {
+  display: none;
+}
+
 .footer-1280 {
   background: var(--main, #7b628a);
-
+  margin-top: 170px;
   display: flex;
   min-width: 1280px;
   padding: 4px 72px;
