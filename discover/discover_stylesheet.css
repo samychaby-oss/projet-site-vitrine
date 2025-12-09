@@ -1,3 +1,8 @@
+a {
+  text-decoration: none;
+  color: #000;
+}
+
 .header {
   display: inline-flex;
   min-width: 1280px;
@@ -55,6 +60,9 @@
 .btn-header:hover {
   background-color: var(--main, #7b628a);
   color: #fff;
+  a {
+    color: #fff;
+  }
 }
 
 .btn-accent {
