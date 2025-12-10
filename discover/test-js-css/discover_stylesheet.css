@@ -1,0 +1,487 @@
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.header {
+  display: inline-flex;
+  min-width: 1280px;
+  padding: 16px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-bar {
+  display: flex;
+  width: 1280px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo-box {
+  display: flex;
+  padding-right: 122px;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-bar-buttons {
+  display: flex;
+  padding: 8px 0;
+  align-items: center;
+  gap: 24px;
+}
+
+.btn {
+  text-align: center;
+  font-family: Futura;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-header {
+  color: var(--black, #000);
+  display: flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.btn-header:hover {
+  background-color: var(--main, #7b628a);
+  color: #fff;
+  a {
+    color: #fff;
+  }
+}
+
+.btn-accent {
+  border-radius: 12px;
+  background: var(--accent, #e9bf57);
+  display: flex;
+  padding: 0px 32px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-accent:hover {
+  background: #6e5415;
+}
+
+.btn-cta-header {
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: Futura;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.logo-dark-small {
+  width: 48px;
+  height: 48px;
+  aspect-ratio: 1/1;
+  background-image: url(asset/logo/small-dark.png);
+}
+
+.main-content {
+  gap: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-1280 {
+  width: 1280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 90px;
+}
+
+.section {
+  display: flex;
+  width: 1280px;
+  padding: 0 125px;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
+
+.title-dark {
+  color: var(--black, #000);
+  text-align: center;
+  font-family: Futura;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.5px;
+}
+
+.title-light {
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: Futura;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.5px;
+}
+
+.aera-full {
+  background: #f2f2f2;
+  border-radius: 24px;
+  border: 3px solid var(--secondary-dark, #cfb097);
+  height: 520px;
+  width: 1031px;
+
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  align-self: center;
+}
+
+.folder-group {
+  position: relative;
+  width: 581px;
+  height: 520px;
+  border-radius: 24px;
+}
+
+.level-1-active .folder-1 .folder-shape-default {
+  fill: var(--main, #7b628a);
+}
+.level-1-active .folder-1 .text-level {
+  color: var(--white, #fff);
+}
+.level-2-active .folder-2 .folder-shape-default {
+  fill: var(--main, #7b628a);
+}
+.level-2-active .folder-2 .text-level {
+  color: var(--white, #fff);
+}
+.level-3-active .folder-3 .folder-shape-default {
+  fill: var(--main, #7b628a);
+}
+.level-3-active .folder-3 .text-level {
+  color: var(--white, #fff);
+}
+.level-4-active .folder-4 .folder-shape-default {
+  fill: var(--main, #7b628a);
+}
+.level-4-active .folder-4 .text-level {
+  color: var(--white, #fff);
+}
+
+.folder-4 {
+  position: absolute;
+  z-index: 4;
+  left: 240px;
+  width: 341px;
+  height: 520px;
+  stroke-width: 3px;
+  stroke: var(--secondary-dark, #cfb097);
+}
+
+.folder-3 {
+  position: absolute;
+  z-index: 6;
+  left: 160px;
+  width: 341px;
+  height: 520px;
+  stroke-width: 3px;
+  stroke: var(--secondary-dark, #cfb097);
+}
+
+.folder-2 {
+  position: absolute;
+  z-index: 8;
+  left: 80px;
+  width: 341px;
+  height: 520px;
+  stroke-width: 3px;
+  stroke: var(--secondary-dark, #cfb097);
+}
+
+.folder-1 {
+  position: relative;
+  z-index: 10;
+  left: 0px;
+  width: 341px;
+  height: 520px;
+  stroke-width: 3px;
+  stroke: var(--secondary-dark, #cfb097);
+}
+
+.folder-shape-default {
+  fill: #f2e9e2;
+  stroke: #cfb097;
+  stroke-width: 3px;
+}
+
+.folder-shape-active {
+  fill: var(--main, #7b628a);
+  stroke: #cfb097;
+  stroke-width: 3px;
+}
+
+/* Test pour voir à quoi ressemblera le prototype final
+.folder-shape-default:hover {
+  fill: #7b628a;
+  stroke: #cfb097;
+  stroke-width: 3.78193px;
+} */
+
+.text-level {
+  position: absolute;
+  bottom: 34px;
+  right: 0px;
+  color: var(--black, #000);
+  text-align: center;
+  font-family: Futura;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  height: 56px;
+  transform: rotate(90deg);
+}
+
+.text-level-active {
+  color: var(--white, #fff);
+}
+
+.flower-description {
+  display: flex;
+  width: 320px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 64px;
+}
+
+.flower-img {
+  display: flex;
+  height: 200px;
+  width: 200px;
+  padding: 0 60px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.flower-img-1 {
+  height: 200px;
+  width: 200px;
+  background-image: url(asset/flowers/200-flower-1.png);
+  box-shadow: 0 1px 6px 0 var(--main, #7b628a);
+  border-radius: 600px;
+}
+
+.flower-text {
+  width: 320px;
+  color: var(--black, #000);
+  font-family: "din-2014";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.255px;
+}
+
+#flower-1 {
+  display: block;
+}
+
+#flower-2 {
+  display: none;
+}
+
+#flower-3 {
+  display: none;
+}
+
+#flower-4 {
+  display: none;
+}
+
+.objects {
+  border-radius: 16px;
+  background: var(--main, #7b628a);
+  display: flex;
+  width: 1280px;
+  padding: 16px 124.5px 121px 124.5px;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  gap: 64px;
+}
+
+.objects-content {
+  display: flex;
+  gap: 65px;
+  align-items: center;
+}
+
+.object-column {
+  display: flex;
+  width: 300px;
+  height: 450px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 45px;
+}
+
+.object-image {
+  height: 195px;
+  flex-shrink: 0;
+  align-self: stretch;
+  border-radius: 20px;
+}
+
+.object-flowers-img {
+  background: url(asset/objects/flowers-300.png) no-repeat;
+}
+
+.object-potion-img {
+  background: url(asset/objects/potion-300.png) no-repeat;
+}
+
+.object-broom-img {
+  background: url(asset/objects/broom-300-removebg.png) no-repeat;
+}
+
+.object-text {
+  color: var(--white, #fff);
+  font-family: "din-2014";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.18px;
+  align-self: stretch;
+}
+
+.card-familiar-group {
+  display: flex;
+  align-items: center;
+  gap: 12%;
+}
+
+.card-familiar {
+  position: relative;
+  width: 264px;
+  height: 398px;
+  border-radius: 20px;
+  background: var(--main, #7b628a);
+}
+
+.card-familiar-name {
+  margin-top: 54px;
+  width: 261px;
+  height: 44px;
+  color: #f4f5fd;
+  text-align: center;
+  font-family: Futura;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.36px;
+}
+
+.familiar-frog-img {
+  position: absolute;
+  left: -68px;
+  bottom: -82px;
+  width: 178px;
+  height: 178px;
+  aspect-ratio: 1/1;
+  background-image: url(asset/familiar/familiar-frog.png);
+}
+.familiar-cat-img {
+  position: absolute;
+  left: -42px;
+  bottom: -82px;
+  width: 234px;
+  height: 234px;
+  aspect-ratio: 1/1;
+  background-image: url(asset/familiar/familiar-cat.png);
+}
+.familiar-dragon-img {
+  position: absolute;
+  right: -178px;
+  bottom: -82px;
+  width: 250px;
+  height: 250px;
+  background-image: url(asset/familiar/familiar-dragon.png);
+}
+
+.footer-1280 {
+  background: var(--main, #7b628a);
+  margin-top: 200px;
+
+  display: flex;
+  min-width: 1280px;
+  padding: 4px 72px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.game-title {
+  color: var(--white, #fff);
+  font-family: Aladin;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-footer {
+  display: flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+.btn-footer:hover {
+  background-color: var(--main, #4a3557);
+  border-radius: 12px;
+}
+
+.logo-footer {
+  display: flex;
+  padding-left: 108px;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-light-small {
+  width: 48px;
+  height: 48px;
+  aspect-ratio: 1/1;
+  background-image: url(asset/logo/small-light.png);
+}

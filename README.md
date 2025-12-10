@@ -1,5 +1,2 @@
 # projet-site-vitrine
-j'ai change
-
-
-
+Dans cette branche, je vais commencer à faire la page about.
