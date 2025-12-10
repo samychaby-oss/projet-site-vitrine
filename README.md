@@ -1,2 +1,4 @@
 # projet-site-vitrine
-Dans cette branche, je vais commencer à faire la page about.
+
+Voici notre projet.
+Samy Chabour — Wesley Goudjo
