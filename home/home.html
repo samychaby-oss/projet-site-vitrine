@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mystflora</title>
-    <link rel="stylesheet" href="page2.css" />
+    <link rel="stylesheet" href="home_stylesheet.css" />
   </head>
+
   <body>
     <!-- ========= HEADER ========= -->
     <div class="header">
@@ -13,17 +14,19 @@
         <div class="nav-logo-box">
           <div class="logo-dark-small"></div>
         </div>
+
         <div class="nav-bar-buttons">
-          <div class="btn">
-            <p class="btn-header"><a href="main_page.html">Home</a></p>
+          <div class="btn btn-header">
+            <p><a href="main_page.html">Home</a></p>
           </div>
-          <div class="btn">
-            <p class="btn-header"><a href="">Discover</a></p>
+          <div class="btn btn-header">
+            <p><a href="">Discover</a></p>
           </div>
-          <div class="btn">
-            <p class="btn-header"><a href="">About us</a></p>
+          <div class="btn btn-header">
+            <p><a href="">About us</a></p>
           </div>
         </div>
+
         <div class="btn-accent">
           <p class="btn-cta-header">Start playing</p>
         </div>
@@ -39,25 +42,14 @@
             <div class="info-box">A peaceful idle game like no other.</div>
             <button class="btn-start">Start Playing</button>
             <div class="bottom-images">
-              <img
-                src="02fa1230fa123be920a8ec4ed6ff905357c17ca4.png"
-                class="small-image"
-              />
-              <img
-                src="624589b0aa6ccedb5ed47c3db366c344e0ba4e95.png"
-                class="small-image"
-              />
-              <img
-                src="d787c5a45297830d8150de60be79f0e783d24897.png"
-                class="small-image"
-              />
+              <img src="fllower-1.png" class="small-image" />
+              <img src="flower-2.png" class="small-image" />
+              <img src="flower-3.png" class="small-image" />
             </div>
           </div>
+
           <div class="right-side">
-            <img
-              src="7905c038f09acd42d34f0ff95759af96a6e2bf4e.png"
-              class="main-image"
-            />
+            <img src="main-flower-2.png" class="main-image" />
           </div>
         </div>
       </div>
@@ -66,13 +58,11 @@
     <!-- ========= PAGE 2 ========= -->
     <section class="second-page">
       <div class="white-box">
-        <div class="left-img-box">
-          <img
-            src="ebf8bd952a516586836646bd34a0d10a1f6ab648.jpg"
-            class="left-big-img"
-          />
+        <div class="left-img-box slide-left">
+          <img src="discover.jpg" class="left-big-img" />
         </div>
-        <div class="right-text-box">
+
+        <div class="right-text-box slide-right">
           <h2 class="discover-title">Discover the universe</h2>
           <p class="discover-text">
             A little apprentice witch lived in the heart of a magical forest.<br /><br />
@@ -91,7 +81,6 @@
       </div>
     </section>
 
-    <!-- PETIT ESPACE BLANC -->
     <div class="small-space"></div>
 
     <!-- ========= PAGE 3 ========= -->
@@ -106,6 +95,7 @@
               which can then be sold to earn money. This money is used to buy
               upgrades that increase flower collection and speed up potion
               creation.<br /><br />
+
               As the game progresses, the player unlocks a broom to obtain rarer
               flowers, familiars like cats that gather resources automatically,
               and spells that boost production. Even when offline, the familiars
@@ -113,43 +103,42 @@
               power to become the Potion Baroness.
             </p>
           </div>
+
           <div class="right-red-box">
             <div class="image-container">
-              <img
-                src="f0e46747acdc1716679a32f82f6ab2353e37489b.png"
-                class="game-image"
-              />
+              <img src="jj-game.png" class="game-image" />
             </div>
           </div>
         </div>
       </div>
     </section>
+
     <div class="small-space"></div>
+
     <!-- ========= PAGE 4 ========= -->
     <section class="fourth-page">
       <div class="white-box-4">
         <div class="purple-column">
           <h3 class="column-title">PLAYERS</h3>
           <div class="purple-rect">
-            <p class="number-display">0000</p>
+            <p id="counter1" class="number-display">0000</p>
           </div>
         </div>
 
         <div class="purple-column">
           <h3 class="column-title">CLICKS</h3>
           <div class="purple-rect">
-            <p class="number-display">00000000</p>
+            <p id="counter2" class="number-display">00000000</p>
           </div>
         </div>
 
         <div class="purple-column">
           <h3 class="column-title">RATINGS</h3>
-          <div class="purple-rect">
-            <p class="number-display">79806</p>
-          </div>
+          <div class="purple-rect"><p class="number-display">4.7/5</p></div>
         </div>
       </div>
     </section>
+
     <!-- ========= FOOTER ========= -->
     <div class="footer-1280">
       <p class="game-title">Mystflora</p>
@@ -158,9 +147,10 @@
         <div class="btn"><p class="btn-footer">Contact us</p></div>
         <div class="btn"><p class="btn-footer">Follow us</p></div>
       </div>
-      <div class="logo-footer">
-        <div class="logo-light-small"></div>
-      </div>
+      <div class="logo-footer"><div class="logo-light-small"></div></div>
     </div>
+
+    <!-- JS -->
+    <script src="home.js"></script>
   </body>
 </html>
