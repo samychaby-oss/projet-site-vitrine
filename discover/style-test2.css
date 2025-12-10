@@ -154,96 +154,37 @@ a {
   align-self: center;
 }
 
-.folder-group {
+.folder-section {
+  background: #f2f2f2;
+  border-radius: 24px;
+  border: 3px solid var(--secondary-dark, #cfb097);
+  height: 520px;
+  width: 1031px;
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  align-self: center;
+}
+
+.folder-description {
+  display: flex;
+}
+
+.element-group {
   position: relative;
   width: 581px;
   height: 520px;
   border-radius: 24px;
 }
 
-.level-1-active .folder-1 .folder-shape-default {
-  fill: var(--main, #7b628a);
-}
-.level-1-active .folder-1 .text-level {
-  color: var(--white, #fff);
-}
-.level-2-active .folder-2 .folder-shape-default {
-  fill: var(--main, #7b628a);
-}
-.level-2-active .folder-2 .text-level {
-  color: var(--white, #fff);
-}
-.level-3-active .folder-3 .folder-shape-default {
-  fill: var(--main, #7b628a);
-}
-.level-3-active .folder-3 .text-level {
-  color: var(--white, #fff);
-}
-.level-4-active .folder-4 .folder-shape-default {
-  fill: var(--main, #7b628a);
-}
-.level-4-active .folder-4 .text-level {
-  color: var(--white, #fff);
-}
-
-.folder-4 {
-  position: absolute;
-  z-index: 4;
-  left: 240px;
-  width: 341px;
+.element {
+  width: 342px;
   height: 520px;
-  stroke-width: 3px;
-  stroke: var(--secondary-dark, #cfb097);
+  border-radius: 24px;
+  border: 3px solid #cfb097;
+  background: #f2e9e2;
+  transition: 0.5s ease-in-out;
 }
-
-.folder-3 {
-  position: absolute;
-  z-index: 6;
-  left: 160px;
-  width: 341px;
-  height: 520px;
-  stroke-width: 3px;
-  stroke: var(--secondary-dark, #cfb097);
-}
-
-.folder-2 {
-  position: absolute;
-  z-index: 8;
-  left: 80px;
-  width: 341px;
-  height: 520px;
-  stroke-width: 3px;
-  stroke: var(--secondary-dark, #cfb097);
-}
-
-.folder-1 {
-  position: relative;
-  z-index: 10;
-  left: 0px;
-  width: 341px;
-  height: 520px;
-  stroke-width: 3px;
-  stroke: var(--secondary-dark, #cfb097);
-}
-
-.folder-shape-default {
-  fill: #f2e9e2;
-  stroke: #cfb097;
-  stroke-width: 3px;
-}
-
-.folder-shape-active {
-  fill: var(--main, #7b628a);
-  stroke: #cfb097;
-  stroke-width: 3px;
-}
-
-/* Test pour voir à quoi ressemblera le prototype final
-.folder-shape-default:hover {
-  fill: #7b628a;
-  stroke: #cfb097;
-  stroke-width: 3.78193px;
-} */
 
 .text-level {
   position: absolute;
@@ -262,6 +203,38 @@ a {
 
 .text-level-active {
   color: var(--white, #fff);
+}
+
+.active {
+  background-color: var(--main, #7b628a);
+  color: #fff;
+  .text-level {
+    color: #fff;
+    transition: 0.5s ease-in-out;
+  }
+}
+
+.fol-1 {
+  position: absolute;
+  z-index: 10;
+  left: 0px;
+}
+
+.fol-2 {
+  position: absolute;
+  z-index: 8;
+  left: 80px;
+}
+
+.fol-3 {
+  position: absolute;
+  z-index: 4;
+  left: 160px;
+}
+.fol-4 {
+  position: absolute;
+  z-index: 2;
+  left: 240px;
 }
 
 .flower-description {
@@ -288,7 +261,30 @@ a {
   width: 200px;
   background-image: url(asset/flowers/200-flower-1.png);
   box-shadow: 0 1px 6px 0 var(--main, #7b628a);
-  border-radius: 600px;
+  border-radius: 200px;
+}
+
+.flower-img-2 {
+  height: 200px;
+  width: 200px;
+  background-image: url(asset/flowers/200-flower-2-frame.png);
+  box-shadow: 0 1px 6px 0 var(--main, #7b628a);
+  border-radius: 200px;
+}
+.flower-img-3 {
+  height: 200px;
+  width: 200px;
+  background-image: url(asset/flowers/200-flower-3-frame.png);
+  box-shadow: 0 1px 6px 0 var(--main, #7b628a);
+  border-radius: 200px;
+}
+
+.flower-img-4 {
+  height: 200px;
+  width: 200px;
+  background-image: url(asset/flowers/200-flower-4-frame.png);
+  box-shadow: 0 1px 6px 0 var(--main, #7b628a);
+  border-radius: 200px;
 }
 
 .flower-text {
@@ -302,19 +298,19 @@ a {
   letter-spacing: 0.255px;
 }
 
-#flower-1 {
-  display: block;
-}
-
-#flower-2 {
+.flower-1 {
   display: none;
 }
 
-#flower-3 {
+.flower-2 {
   display: none;
 }
 
-#flower-4 {
+.flower-3 {
+  display: none;
+}
+
+.flower-4 {
   display: none;
 }
 
@@ -456,12 +452,15 @@ a {
 }
 
 .btn-footer {
-  color: var(--white, #fff);
   display: flex;
   padding: 16px 32px;
   justify-content: center;
   align-items: center;
   border-radius: 8px;
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
 }
 
 .btn-footer:hover {
