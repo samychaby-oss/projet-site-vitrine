@@ -1,0 +1,18 @@
+{
+  "name": "projet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "sakura-js": "^1.1.1",
+    "tsparticles": "^3.9.1"
+  }
+}
