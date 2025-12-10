@@ -1,5 +1,15 @@
+a {
+  text-decoration: none;
+  color: #000;
+}
+
 .header {
-  display: inline-flex;
+  border-bottom: 0.5px solid var(--main, #7b628a);
+  background: var(--white, #fff);
+  box-shadow: 0 1px 4px 0 rgba(123, 98, 138, 0.25);
+  position: sticky;
+  top: 0px;
+  left: 0px;
   min-width: 1280px;
   padding: 16px 80px;
   display: flex;
@@ -7,12 +17,7 @@
   justify-content: center;
   align-items: center;
   gap: 8px;
-}
-
-.main-content {
-  margin-bottom: 0px;
-  display: flex;
-  justify-content: center;
+  z-index: 20;
 }
 
 .nav-bar {
@@ -44,14 +49,36 @@
   font-weight: 500;
   line-height: normal;
   display: flex;
-  padding: 28px 56px;
+  padding: 12px 24px;
   justify-content: center;
   align-items: center;
-  gap: 8px;
 }
 
 .btn-header {
   color: var(--black, #000);
+  display: flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.btn-page {
+  color: var(--black, #7b628a);
+  display: flex;
+  font-size: 20px;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.btn-header:hover {
+  background-color: var(--main, #7b628a);
+  color: #fff;
+  a {
+    color: #fff;
+  }
 }
 
 .btn-accent {
@@ -63,11 +90,15 @@
   align-items: center;
 }
 
+.btn-accent:hover {
+  background: #6e5415;
+}
+
 .btn-cta-header {
   color: var(--white, #fff);
   text-align: center;
   font-family: Futura;
-  font-size: 18px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -76,8 +107,16 @@
 .logo-dark-small {
   width: 48px;
   height: 48px;
-  aspect-ratio: 1/1;
+
   background-image: url(asset/logo/small-dark.png);
+}
+
+.main-content {
+  margin-top: 48px;
+  gap: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .about-1280 {
@@ -250,7 +289,8 @@
 
 .footer-1280 {
   background: var(--main, #7b628a);
-  margin-top: 170px;
+  margin-top: 200px;
+
   display: flex;
   min-width: 1280px;
   padding: 4px 72px;
@@ -273,7 +313,20 @@
 }
 
 .btn-footer {
-  color: var(--white, #fff);
+  display: flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+.btn-footer:hover {
+  background-color: var(--main, #4a3557);
+  border-radius: 12px;
 }
 
 .logo-footer {
@@ -286,6 +339,6 @@
 .logo-light-small {
   width: 48px;
   height: 48px;
-  aspect-ratio: 1/1;
+
   background-image: url(asset/logo/small-light.png);
 }
