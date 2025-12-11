@@ -6,7 +6,8 @@ Dans ce dépôt git vous pourrez trouver le site vitrine réaliser dans le cadre
 Le dépôt contient donc un site visant à mettre en avant un idle game nommé Mystflora imaginé par deux camarades de notre promotion.
 Le site a été conçu pour immerger l'utilisateur dans l'ambiance du jeu, présenter son univers, son gameplay ainsi que l'équipe ayant réalisé le projet.
 
-Comment visualiser le site ?
+# Comment visualiser le site ?
+
 Pour visualiser le projet sur votre machine, nous recommandons d'utiliser l'extension Live Server de VS Code.
 
 Cloner ou télécharger ce dépot sur votre machine à l'aide du lien suivant :
@@ -16,6 +17,8 @@ https://github.com/samychaby-oss/projet-site-vitrine.git
 
 Pour une expérience optimale, nous vous invitons à lancer le fichier 'landing.html' avec Live Server.
 
+
+# Organisation du site
 Le site est organisé autour de quatre pages :
 Landing > Home > Discover > About
 
@@ -28,6 +31,7 @@ Landing > Home > Discover > About
 — La page 'About' présente l'équipe ayant réalisé ce projet.
 
 
+# L'équipe
 Ce projet a été réalisé par :
 
 Julie Dandrimont et Jordan Francoual — Idle game
@@ -35,6 +39,7 @@ Julie Dandrimont et Jordan Francoual — Idle game
 Samy Chabour & Wesley Goudjo — Site vitrine
 
 Merci d'avoir pris le temps de découvrir le fruit de notre travail.
+
 
 
 
