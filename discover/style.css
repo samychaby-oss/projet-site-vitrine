@@ -104,6 +104,7 @@ b {
 .btn-header:hover {
   background-color: var(--main, #7b628a);
   color: #fff;
+  cursor: pointer;
   a {
     color: #fff;
   }
@@ -120,6 +121,7 @@ b {
 
 .btn-accent:hover {
   background: #6e5415;
+  cursor: pointer;
 }
 
 .btn-cta-header {
@@ -136,7 +138,7 @@ b {
   width: 48px;
   height: 48px;
 
-  background-image: url(asset/logo/small-dark.png);
+  background-image: url(../asset/logo/small-dark.png);
 }
 
 .main-content {
@@ -338,7 +340,7 @@ b {
 .flower-img-1 {
   height: 200px;
   width: 200px;
-  background-image: url(asset/flowers/200-flower-1.png);
+  background-image: url(../asset/flowers/200-flower-1.png);
   box-shadow: 0 1px 6px 0 var(--main, #7b628a);
   border-radius: 200px;
 }
@@ -346,14 +348,14 @@ b {
 .flower-img-2 {
   height: 200px;
   width: 200px;
-  background-image: url(asset/flowers/200-flower-2-frame.png);
+  background-image: url(../asset/flowers/200-flower-2-frame.png);
   box-shadow: 0 1px 6px 0 var(--main, #7b628a);
   border-radius: 200px;
 }
 .flower-img-3 {
   height: 200px;
   width: 200px;
-  background-image: url(asset/flowers/200-flower-3-frame.png);
+  background-image: url(../asset/flowers/200-flower-3-frame.png);
   box-shadow: 0 1px 6px 0 var(--main, #7b628a);
   border-radius: 200px;
 }
@@ -361,7 +363,7 @@ b {
 .flower-img-4 {
   height: 200px;
   width: 200px;
-  background-image: url(asset/flowers/200-flower-4-frame.png);
+  background-image: url(../asset/flowers/200-flower-4-frame.png);
   box-shadow: 0 1px 6px 0 var(--main, #7b628a);
   border-radius: 200px;
 }
@@ -424,7 +426,7 @@ b {
 .object-image-screenshot {
   width: 157px;
   height: 286px;
-  background-image: url("asset/shop-screenshot.png");
+  background-image: url("../asset/shop-screenshot.png");
 }
 
 .callout {
@@ -469,11 +471,11 @@ b {
 }
 
 .object-potion-img {
-  background: url(asset/objects/potion-300.png) no-repeat;
+  background: url(../asset/objects/potion-300.png) no-repeat;
 }
 
 .object-broom-img {
-  background: url(asset/objects/broom-300-removebg.png) no-repeat;
+  background: url(../asset/objects/broom-300.png) no-repeat;
 }
 
 .object-text {
@@ -604,7 +606,7 @@ b {
   width: 178px;
   height: 178px;
 
-  background-image: url(asset/familiar/familiar-frog.png);
+  background-image: url(../asset/familiar/familiar-frog.png);
 }
 .familiar-cat-img {
   position: absolute;
@@ -613,7 +615,7 @@ b {
   bottom: -82px;
   width: 234px;
   height: 234px;
-  background-image: url(asset/familiar/familiar-cat.png);
+  background-image: url(../asset/familiar/familiar-cat.png);
 }
 .familiar-dragon-img {
   position: absolute;
@@ -622,7 +624,7 @@ b {
   bottom: -82px;
   width: 250px;
   height: 250px;
-  background-image: url(asset/familiar/familiar-dragon.png);
+  background-image: url(../asset/familiar/familiar-dragon.png);
 }
 
 .footer-1280 {
@@ -665,6 +667,7 @@ b {
 .btn-footer:hover {
   background-color: #4a3557;
   border-radius: 12px;
+  cursor: pointer;
 }
 
 .logo-footer {
@@ -678,5 +681,5 @@ b {
   width: 48px;
   height: 48px;
 
-  background-image: url(asset/logo/small-light.png);
+  background-image: url(../asset/logo/small-light.png);
 }
