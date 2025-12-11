@@ -1,0 +1,337 @@
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.header {
+  border-bottom: 0.5px solid var(--main, #7b628a);
+  background: var(--white, #fff);
+  box-shadow: 0 1px 4px 0 rgba(123, 98, 138, 0.25);
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  min-width: 1280px;
+  padding: 16px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  z-index: 20;
+}
+
+.nav-bar {
+  display: flex;
+  width: 1280px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo-box {
+  display: flex;
+  padding-right: 122px;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-bar-buttons {
+  display: flex;
+  padding: 8px 0;
+  align-items: center;
+  gap: 24px;
+}
+
+.btn {
+  text-align: center;
+  font-family: Futura;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-header {
+  color: var(--black, #000);
+  display: flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.btn-page {
+  color: var(--black, #7b628a);
+  display: flex;
+  font-size: 20px;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.btn-header:hover {
+  background-color: var(--main, #7b628a);
+  color: #fff;
+  a {
+    color: #fff;
+  }
+}
+
+.btn-accent {
+  border-radius: 12px;
+  background: var(--accent, #e9bf57);
+  display: flex;
+  padding: 0px 32px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-accent:hover {
+  background: #6e5415;
+}
+
+.btn-cta-header {
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: Futura;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.logo-dark-small {
+  width: 48px;
+  height: 48px;
+
+  background-image: url(../asset/logo/small-dark.png);
+}
+
+.main-content {
+  margin-top: 48px;
+  gap: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-1280 {
+  width: 1280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 90px;
+}
+
+.title {
+  color: var(--black, #000);
+  text-align: center;
+  font-family: Futura;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.56px;
+}
+
+.card-layout {
+  display: flex;
+  align-items: center;
+  gap: 59px;
+  align-self: stretch;
+}
+
+.card-purple {
+  background: var(--main, #7b628a);
+  color: var(--white, #fff);
+  border-radius: 20px;
+  display: flex;
+  width: 276px;
+  height: 477px;
+  padding: 48px 0;
+  flex-direction: column;
+  align-items: center;
+  transition: background-color 0.75s ease, color 0.75s ease;
+}
+
+.card-beige {
+  background: var(--secondary, #f2e9e2);
+  color: var(--black, #000);
+  border-radius: 20px;
+  display: flex;
+  width: 276px;
+  height: 477px;
+  padding: 48px 0;
+  flex-direction: column;
+  align-items: center;
+  transition: background-color 0.75s ease, color 0.75s ease;
+}
+
+.card-name {
+  width: 276px;
+  text-align: center;
+  font-family: Futura;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  display: flex;
+  padding-bottom: 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.card-description-beige {
+  display: none;
+  color: #000;
+  font-family: "din-2014";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  margin: 0 24px;
+}
+
+.card-description-purple {
+  display: none;
+  color: #fff;
+  font-family: "din-2014";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  margin: 0 24px;
+}
+
+.avatar-julie {
+  background-image: url(../asset/avatar/transparent-Julie.png);
+  display: flex;
+  width: 260px;
+  height: 260px;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar-jordan {
+  background-image: url(../asset/avatar/transparent-jordan.png);
+  display: flex;
+  width: 260px;
+  height: 260px;
+  justify-content: center;
+  align-items: center;
+}
+.avatar-samy {
+  background-image: url(../asset/avatar/transparent-samy.png);
+  display: flex;
+  width: 260px;
+  height: 260px;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar-wesley {
+  background-image: url(../asset/avatar/transparent-wes.png);
+  display: flex;
+  width: 260px;
+  height: 260px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-purple:hover {
+  background: var(--secondary, #f2e9e2);
+  color: var(--black, #000);
+}
+
+.card-beige:hover {
+  background: var(--main, #7b628a);
+  color: var(--white, #fff);
+}
+
+.card-purple:hover .card-description-beige {
+  display: block;
+}
+
+.card-beige:hover .card-description-purple {
+  display: block;
+}
+
+.card-purple:hover .avatar-julie {
+  display: none;
+}
+
+.card-purple:hover .avatar-samy {
+  display: none;
+}
+
+.card-beige:hover .avatar-jordan {
+  display: none;
+}
+
+.card-beige:hover .avatar-wesley {
+  display: none;
+}
+
+.footer-1280 {
+  background: var(--main, #7b628a);
+  margin-top: 200px;
+
+  display: flex;
+  min-width: 1280px;
+  padding: 4px 72px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.game-title {
+  color: var(--white, #fff);
+  font-family: Aladin;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-footer {
+  display: flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+.btn-footer:hover {
+  background-color: var(--main, #4a3557);
+  border-radius: 12px;
+}
+
+.logo-footer {
+  display: flex;
+  padding-left: 108px;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-light-small {
+  width: 48px;
+  height: 48px;
+
+  background-image: url(../asset/logo/small-light.png);
+}

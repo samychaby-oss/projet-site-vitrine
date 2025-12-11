@@ -1,12 +1,11 @@
-// ================= SLIDE ANIMATION PAGE 2 =================
 const slideLeft = document.querySelector(".slide-left");
 const slideRight = document.querySelector(".slide-right");
-const page_scroll_value = 400;
+const pageScrollValue = 400;
 
 if (slideLeft && slideRight) {
   window.addEventListener("scroll", () => {
     let scroll = window.scrollY;
-    if (scroll > page_scroll_value) {
+    if (scroll > pageScrollValue) {
       slideLeft.classList.add("slide-visible");
       slideRight.classList.add("slide-visible");
     } else {
@@ -16,10 +15,7 @@ if (slideLeft && slideRight) {
   });
 }
 
-//--------------animation page4-------------
-
 window.onload = function () {
-  // Premier compteur
   var counter1 = document.getElementById("counter1");
   var value1 = 6015;
   setInterval(function () {
@@ -28,7 +24,6 @@ window.onload = function () {
     counter1.innerText = value1;
   }, 1000);
 
-  // Deuxième compteur
   var counter2 = document.getElementById("counter2");
   var value2 = 1234567;
   setInterval(function () {

@@ -1,7 +1,6 @@
 const canvas = document.getElementById("petalsCanvas");
 const ctx = canvas.getContext("2d");
 
-// Ajuste la taille du canvas
 function resizeCanvas() {
   canvas.width = window.innerWidth;
   canvas.height = window.innerHeight;
@@ -9,7 +8,6 @@ function resizeCanvas() {
 resizeCanvas();
 window.addEventListener("resize", resizeCanvas);
 
-// Classe d'un pétale
 class Petal {
   constructor() {
     this.reset();
@@ -50,11 +48,9 @@ class Petal {
   }
 }
 
-// Création des pétales
 let petals = [];
 for (let i = 0; i < 40; i++) petals.push(new Petal());
 
-// Animation
 function animate() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   petals.forEach((p) => {
