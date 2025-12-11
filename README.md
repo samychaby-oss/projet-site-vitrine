@@ -1,4 +1,4 @@
-# projet-site-vitrine
+# Mystflora — Site vitrine - HETIC - PMD 2025-2026
 
 Salutations,
 
@@ -39,6 +39,7 @@ Julie Dandrimont et Jordan Francoual — Idle game
 Samy Chabour & Wesley Goudjo — Site vitrine
 
 Merci d'avoir pris le temps de découvrir le fruit de notre travail.
+
 
 
 
