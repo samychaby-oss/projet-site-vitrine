@@ -29,11 +29,13 @@ Landing > Home > Discover > About
 
 
 Ce projet a été réalisé par :
+
 Julie Dandrimont et Jordan Francoual — Idle game
 
 Samy Chabour & Wesley Goudjo — Site vitrine
 
 Merci d'avoir pris le temps de découvrir le fruit de notre travail.
+
 
 
 
