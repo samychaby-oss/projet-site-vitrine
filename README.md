@@ -19,13 +19,14 @@ Pour une expérience optimale, nous vous invitons à lancer le fichier 'landing.
 Le site est organisé autour de quatre pages :
 Landing > Home > Discover > About
 
-1 / La page 'Landing' comporte une animation qui cherche à capter l'attention mais aussi à refléter la vision des créateurs lorsqu'ils ont pensé le jeu.
-2 / La page 'Home' fait figure de présentation générale du jeu.
-3 / La page 'Discover' permet aux internautes de découvrir plus amplement les différents éléments qui compose le jeu.
-4 / La page 'About' présente l'équipe ayant réalisé ce projet.
+— La page 'Landing' comporte une animation qui cherche à capter l'attention mais aussi à refléter la vision des créateurs lorsqu'ils ont pensé le jeu.
+— La page 'Home' fait figure de présentation générale du jeu.
+— La page 'Discover' permet aux internautes de découvrir plus amplement les différents éléments qui compose le jeu.
+— La page 'About' présente l'équipe ayant réalisé ce projet.
 
 Ce projet a été réalisé par :
 Julie Dandrimont et Jordan Francoual — Idle game
 Samy Chabour & Wesley Goudjo — Site vitrine
 
 Merci d'avoir pris le temps de découvrir le fruit de notre travail.
+
